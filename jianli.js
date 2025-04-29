@@ -1,5 +1,5 @@
 function onClick() {
-  location.href = '../../pages/gangwei_shouye/gangwei_shouye.html';
+  location.href = '../../pages/index/index.html';
 }
 
 function onClick_1() {
