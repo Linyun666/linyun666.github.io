@@ -3,6 +3,9 @@ function onClick() {
 }
 
 function onClick_1() {
-  location.href = 'mianshi.html';
+  location.href = 'jianli.html';
 }
 
+function onClick_2() {
+  location.href = 'mianshi.html';
+}
