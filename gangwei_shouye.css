@@ -7,9 +7,6 @@
 .ml-3 {
   margin-left: 0.19rem;
 }
-.ml-93 {
-  margin-left: 5.81rem;
-}
 .ml-5 {
   margin-left: 0.31rem;
 }
@@ -25,10 +22,16 @@
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  height: 100%;
+  height: 58.25rem;
 }
 .group {
   padding: 0 0.56rem 0.97rem 2.34rem;
+}
+.pos_4 {
+  position: absolute;
+  left: 0rem;
+  right: 0rem;
+  top: 1rem;
 }
 .group_2 {
   padding-left: 5.72rem;
@@ -75,8 +78,12 @@
   width: 2rem;
   height: 2rem;
 }
-.equal-division {
-  margin-left: 0.22rem;
+.group_15 {
+  padding-left: 0.22rem;
+  height: 2.15rem;
+}
+.equal-division_2 {
+  align-self: stretch;
 }
 .image_7 {
   width: 1.56rem;
@@ -121,12 +128,9 @@
   height: 0.69rem;
 }
 .group_14 {
+  margin-left: 2.31rem;
+  margin-top: -2.15rem;
   width: 2.5rem;
-}
-.pos {
-  position: absolute;
-  left: 2.53rem;
-  top: 0;
 }
 .section {
   border-radius: 0.31rem;
@@ -134,8 +138,12 @@
   background-color: #cccccc66;
   box-shadow: 0rem 0.072rem 0.14rem 0rem #000000;
 }
-.list {
-  width: 21.88rem;
+.pos_1 {
+  position: absolute;
+  left: 0rem;
+  right: 0rem;
+  top: 12rem;
+  bottom: 5.3rem;
 }
 .section_3 {
   padding: 1.69rem 0.76rem 1.16rem 1.19rem;
@@ -145,6 +153,9 @@
 }
 .list-item:first-child {
   margin-top: 0;
+}
+.group_16 {
+  width: 19.92rem;
 }
 .font_3 {
   font-size: 1.25rem;
@@ -159,6 +170,9 @@
   line-height: 1.13rem;
   font-weight: 700;
   color: #000000;
+}
+.text_12 {
+  margin-right: 0.33rem;
 }
 .group_3 {
   margin-top: 0.8rem;
@@ -381,11 +395,18 @@
   margin-left: 0.27rem;
   margin-top: 0.32rem;
 }
+.view {
+  width: 19.65rem;
+}
 .section_4 {
   padding: 1.69rem 1rem 2.8rem 1.19rem;
   background-color: #ffffff;
   border-radius: 0.77rem 0.77rem 0 0;
   box-shadow: 0rem 0.13rem 0.38rem #00000066;
+  width: 21.88rem;
+}
+.text_11 {
+  margin-right: 0.092rem;
 }
 .section_5 {
   padding: 0.44rem 1.94rem 0.54rem 2.75rem;
@@ -393,12 +414,9 @@
 }
 .pos_2 {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 40.94rem;
-}
-.equal-division_2 {
-  align-self: stretch;
+  left: 0rem;
+  right: 0rem;
+  bottom: 0rem;
 }
 .equal-division-item_1 {
   padding-top: 0.1rem;
@@ -431,4 +449,27 @@
   border-radius: 6.25rem;
   width: 13.06rem;
   height: 0.31rem;
+}
+
+.dilan{
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.dinglan{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      color: white;
+      background-color: white;
+      text-align: center;
+      padding: 10px 0;
+      z-index: 1000;
+
 }
